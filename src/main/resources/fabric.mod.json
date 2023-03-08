@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "srvvlcmmndblcks",
+  "version": "${version}",
+
+  "name": "Survival Command Blocks",
+  "description": "Command Blocks now made avalible and usable in a survival world near you!",
+  "authors": [
+    "ona li toki e jan Epiphany tawa mi"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
