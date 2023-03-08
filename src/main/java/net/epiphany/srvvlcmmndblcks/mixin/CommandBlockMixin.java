@@ -18,7 +18,8 @@ public class CommandBlockMixin {
      */
     @ModifyVariable( method = "Lnet/minecraft/block/CommandBlock;<init>(Lnet/minecraft/block/AbstractBlock$Settings;Z)V"
                    , at = @At("HEAD")
-                   , argsOnly = true)
+                   , argsOnly = true
+                   , require = 1)
     private static Settings makeMineable(Settings blockSettings) {
         return blockSettings.hardness(5.0f);
     }
@@ -28,7 +29,8 @@ public class CommandBlockMixin {
      */
     @Redirect( method = "Lnet/minecraft/block/CommandBlock;onUse(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/hit/BlockHitResult;)Lnet/minecraft/util/ActionResult;"
              , at = @At( value = "INVOKE"
-                       , target = "Lnet/minecraft/entity/player/PlayerEntity;isCreativeLevelTwoOp()Z"))
+                       , target = "Lnet/minecraft/entity/player/PlayerEntity;isCreativeLevelTwoOp()Z")
+             , require = 1)
     private boolean allowEditCommandBlock(PlayerEntity self) {
         return true;
     }

@@ -14,7 +14,8 @@ public class CommandBlockExecutorMixin {
      */
     @Redirect( method = "Lnet/minecraft/world/CommandBlockExecutor;interact(Lnet/minecraft/entity/player/PlayerEntity;)Lnet/minecraft/util/ActionResult;"
              , at = @At( value = "INVOKE"
-                       , target = "Lnet/minecraft/entity/player/PlayerEntity;isCreativeLevelTwoOp()Z"))
+                       , target = "Lnet/minecraft/entity/player/PlayerEntity;isCreativeLevelTwoOp()Z")
+             , require = 1)
     private boolean allowInteractWithExecutor(PlayerEntity self) {
         return true;
     }

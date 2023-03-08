@@ -16,7 +16,8 @@ public class ServerPlayerInteractionManagerMixin {
      */
     @Redirect( method = "Lnet/minecraft/server/network/ServerPlayerInteractionManager;tryBreakBlock(Lnet/minecraft/util/math/BlockPos;)Z"
              , at = @At( value = "INVOKE"
-                       , target = "Lnet/minecraft/server/network/ServerPlayerEntity;isCreativeLevelTwoOp()Z"))
+                       , target = "Lnet/minecraft/server/network/ServerPlayerEntity;isCreativeLevelTwoOp()Z")
+             , require = 1)
     private boolean allowBreakOperatorBlock(ServerPlayerEntity self) {
         return true;
     }

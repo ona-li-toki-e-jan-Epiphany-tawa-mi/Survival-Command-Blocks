@@ -14,7 +14,8 @@ public class ServerPlayNetworkHandlerMixin {
      */
     @Redirect( method = "Lnet/minecraft/server/network/ServerPlayNetworkHandler;onUpdateCommandBlock(Lnet/minecraft/network/packet/c2s/play/UpdateCommandBlockC2SPacket;)V"
              , at = @At( value = "INVOKE"
-                       , target = "Lnet/minecraft/server/network/ServerPlayerEntity;isCreativeLevelTwoOp()Z"))
+                       , target = "Lnet/minecraft/server/network/ServerPlayerEntity;isCreativeLevelTwoOp()Z")
+             , require = 1)
     private boolean allowUpdateCommandBlock(ServerPlayerEntity self) {
         return true;
     }
@@ -24,7 +25,8 @@ public class ServerPlayNetworkHandlerMixin {
      */
     @Redirect( method = "Lnet/minecraft/server/network/ServerPlayNetworkHandler;onUpdateCommandBlockMinecart(Lnet/minecraft/network/packet/c2s/play/UpdateCommandBlockMinecartC2SPacket;)V"
              , at = @At( value = "INVOKE"
-                       , target = "Lnet/minecraft/server/network/ServerPlayerEntity;isCreativeLevelTwoOp()Z"))
+                       , target = "Lnet/minecraft/server/network/ServerPlayerEntity;isCreativeLevelTwoOp()Z")
+             , require = 1)
     private boolean allowUpdateCommandBlockMinecart(ServerPlayerEntity self) {
         return true;
     }

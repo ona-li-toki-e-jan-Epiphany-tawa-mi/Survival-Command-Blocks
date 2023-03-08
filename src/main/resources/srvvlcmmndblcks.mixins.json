@@ -9,7 +9,8 @@
     "ServerPlayNetworkHandlerMixin",
     "CommandBlockMinecartEntityMixin",
     "AbstractBlockAccessor",
-    "ServerPlayerInteractionManagerMixin"
+    "ServerPlayerInteractionManagerMixin",
+    "OperatorOnlyBlockItemMixin"
   ],
   "injectors": {
     "defaultRequire": 1
