@@ -1,12 +1,15 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.epiphany.srvvlcmmndblcks",
+  "package": "net.epiphany.srvvlcmmndblcks.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "CommandBlockMixin",
     "CommandBlockExecutorMixin",
-    "ServerPlayNetworkHandlerMixin"
+    "ServerPlayNetworkHandlerMixin",
+    "CommandBlockMinecartEntityMixin",
+    "AbstractBlockAccessor",
+    "ServerPlayerInteractionManagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
