@@ -9,6 +9,9 @@ import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Blocks;
 import net.minecraft.util.Identifier;
 
+/**
+ * A mod that allows players in survival mode to craft, place, use, and break command blocks.
+ */
 public class SurvivalCommandBlocks implements ModInitializer {
     public static final String MINECRAFT_NAMESPACE = "minecraft";
 
