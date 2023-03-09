@@ -49,3 +49,8 @@ The complied jar file should appear in build/libs/.
 ![chain command block recipe](screenshots/chain_command_block_recipe.png)
 ![repeating command block recipe](screenshots/repeating_command_block_recipe.png)
 ![command block minecart recipe](screenshots/command_block_minecart_recipe.png)
+
+## Links
+
+- [PlanetMinecraft page](https://www.planetminecraft.com/mod/survival-command-blocks-fabric "Survival Command Blocks' Planet Minecraft page.")
+- [CurseForge page](https://www.curseforge.com/minecraft/mc-mods/survival-usable-command-blocks "Survival Command Blocks' CurseForge page")
