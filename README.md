@@ -54,3 +54,4 @@ The complied jar file should appear in build/libs/.
 
 - [PlanetMinecraft page](https://www.planetminecraft.com/mod/survival-command-blocks-fabric "Survival Command Blocks' Planet Minecraft page.")
 - [CurseForge page](https://www.curseforge.com/minecraft/mc-mods/survival-usable-command-blocks "Survival Command Blocks' CurseForge page")
+- [Demonstration video](https://www.youtube.com/watch?v=-x18yaFZ21A "Survival Command Blocks' demonstration video on YouTube")
