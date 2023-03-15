@@ -50,6 +50,12 @@ gradlew.bat build
 
 The complied jar file should appear in build/libs/.
 
+## Links
+
+- [PlanetMinecraft page](https://www.planetminecraft.com/mod/survival-command-blocks-fabric "Survival Command Blocks' Planet Minecraft page.")
+- [CurseForge page](https://www.curseforge.com/minecraft/mc-mods/survival-usable-command-blocks "Survival Command Blocks' CurseForge page")
+- [Demonstration video](https://www.youtube.com/watch?v=-x18yaFZ21A "Survival Command Blocks' demonstration video on YouTube")
+
 ## Screenshots
 
 ![breaking a command block](screenshots/breaking.png)
@@ -59,8 +65,8 @@ The complied jar file should appear in build/libs/.
 ![repeating command block recipe](screenshots/repeating_command_block_recipe.png)
 ![command block minecart recipe](screenshots/command_block_minecart_recipe.png)
 
-## Links
+# Changelog
 
-- [PlanetMinecraft page](https://www.planetminecraft.com/mod/survival-command-blocks-fabric "Survival Command Blocks' Planet Minecraft page.")
-- [CurseForge page](https://www.curseforge.com/minecraft/mc-mods/survival-usable-command-blocks "Survival Command Blocks' CurseForge page")
-- [Demonstration video](https://www.youtube.com/watch?v=-x18yaFZ21A "Survival Command Blocks' demonstration video on YouTube")
+- Updated to 1.19.4
+- Moved recipes into Minecraft namespace for convience.
+- Non-opped players can now view command suggestions for commands they cannot normally use for use with command blocks.
