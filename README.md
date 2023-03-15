@@ -36,7 +36,9 @@ After that, grab a version from [RELEASES](https://github.com/ona-li-toki-e-jan-
 
 Java 17 or higher is required.
 
-Run the following command(s) inside the project directory:
+First, follow [these instructions on the Fabric Wiki](https://fabricmc.net/wiki/tutorial:setup "Fabric Setup Tutorial on the Fabric Wiki") to get the development enviroment setup.
+
+After that, run the following command inside the project directory:
 
 ```console
 ./gradlew build
