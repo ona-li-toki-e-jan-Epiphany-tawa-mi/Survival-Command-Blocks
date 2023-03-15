@@ -6,11 +6,14 @@
   "mixins": [
     "CommandBlockMixin",
     "CommandBlockExecutorMixin",
-    "ServerPlayNetworkHandlerMixin",
-    "CommandBlockMinecartEntityMixin",
-    "AbstractBlockAccessor",
+    "OperatorOnlyBlockItemMixin",
     "ServerPlayerInteractionManagerMixin",
-    "OperatorOnlyBlockItemMixin"
+    "ServerPlayNetworkHandlerMixin",
+    
+    "AbstractBlockAccessor",
+    "CommandBlockMinecartEntityMixin",
+
+    "CommandManagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
