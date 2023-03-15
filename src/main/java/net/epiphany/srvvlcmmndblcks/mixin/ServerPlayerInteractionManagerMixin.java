@@ -12,7 +12,7 @@ public class ServerPlayerInteractionManagerMixin {
     /**
      * Allows players to break implementations of {@link net.minecraft.block.OperatorBlock}, namely command blocks.
      * 
-     * The other implementation are also unbreakable, so this should only effect command blocks.
+     * The other implementations are also unbreakable, so this should only effect command blocks.
      */
     @Redirect( method = "Lnet/minecraft/server/network/ServerPlayerInteractionManager;tryBreakBlock(Lnet/minecraft/util/math/BlockPos;)Z"
              , at = @At( value = "INVOKE"
