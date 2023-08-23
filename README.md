@@ -4,7 +4,7 @@
 
 *Command Blocks now made avalible and usable in a survival world near you!*
 
-This mod (for Minecraft 1.19.4) makes command blocks craftable, placeable, editable, and destroyable by players in survival mode, regardless of whether they are an operator. 
+This mod (for Minecraft 1.20.1) makes command blocks craftable, placeable, editable, and destroyable by players in survival mode, regardless of whether they are an operator. 
 
 *Note: all players will recieve suggestions and auto-completion for all commands on the server, but can only execute them if they are opped or are using a command block.*
 
@@ -53,6 +53,8 @@ gradlew.bat build
 The complied jar file should appear in build/libs/.
 
 ## Links
+
+TODO: FIX LINKS
 
 - [PlanetMinecraft page](https://www.planetminecraft.com/mod/survival-command-blocks-fabric "Survival Command Blocks' Planet Minecraft page.")
 - [CurseForge page](https://www.curseforge.com/minecraft/mc-mods/survival-usable-command-blocks "Survival Command Blocks' CurseForge page")

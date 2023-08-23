@@ -14,6 +14,9 @@ public class CommandManagerMixin {
      * Allows players to see all server commands and suggestions for them even if they are not an operator.
      * Note: this doesn't allow them to execute the commands, just to look at them.
      */
+    @SuppressWarnings({"rawtypes", "mapping"}) /* Says cannot find mapping and warnings appear in console,
+                                                *   but everything works hunky-dory so idk.
+                                                */
     @Redirect( method = "Lnet/minecraft/server/command/CommandManager;makeTreeForSource(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/tree/CommandNode;Lnet/minecraft/server/command/ServerCommandSource;Ljava/util/Map;)V"
              , at = @At( value = "INVOKE"
                        , target = "Lcom/mojang/brigadier/tree/CommandNode;canUse(Ljava/lang/Object;)Z")
