@@ -1,5 +1,9 @@
 # Changelog
 
+- Updated to 1.20.2
+
+## 1.20.1-0.1.2
+
 - Updated to 1.20.1
 
 ## 1.19.4-0.1.1
