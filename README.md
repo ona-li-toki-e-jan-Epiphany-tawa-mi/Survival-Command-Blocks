@@ -1,5 +1,7 @@
 ![logo](logo.png)
 
+**!!NOTICE!!:** I have decided to abandon Minecraft in favor of the FOSS Minetest ([https://www.minetest.net](https://www.minetest.net "Minetest website")). As such, this project will no longer be maintained or developed.
+
 # Survival Command Blocks
 
 *Command Blocks now made avalible and usable in a survival world near you!*
