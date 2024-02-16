@@ -56,7 +56,7 @@ The complied jar file should appear in build/libs/.
 
 ## Links
 
-- [Demonstration video](https://www.youtube.com/watch?v=-x18yaFZ21A "Survival Command Blocks' demonstration video on YouTube")
+- [Demonstration video](https://odysee.com/Command-Blocks-in-Survival-Minecraft:783b4b9b4a0bb4f00f437fe6b7ee79e8075121a1?r=HYroMZaqrVN4gL5oSJ35gcTgt3K56r39 "Survival Command Blocks' demonstration video on Odysee")
 
 ## Screenshots
 
